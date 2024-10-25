@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #555;
+}
+.palabra {
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+.letras {
+    margin-top: 20px;
+}
+.letra {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+.letra.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.intentos {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.mensaje {
+    margin-top: 20px;
+    font-size: 24px;
+}
